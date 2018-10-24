@@ -60,7 +60,7 @@ spec:
       containers:
       - name: k8skafka
         imagePullPolicy: Always
-        image: gcr.io/google_samples/k8skafka:v1
+        image: gcr.io/google_samples/k8skafka:v2
         resources:
           requests:
             memory: "1Gi"
